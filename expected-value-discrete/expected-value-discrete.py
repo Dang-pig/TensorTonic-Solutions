@@ -7,6 +7,6 @@ def expected_value_discrete(x, p):
     x = np.asarray(x)
     p = np.asarray(p)
     if(p.sum().item() != 1):
-        raise ValueError("Fuck your mom fat")
+        raise ValueError("Ur mom fat")
     return (x * p).sum().item()
     pass
